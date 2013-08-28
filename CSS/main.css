@@ -3,14 +3,14 @@ body{
 }
 .main {
 	font-family: cursive;
-	background-color: #CCFFFF;
-	border: 3px solid #33FF99;
-	width: 600px;
-	height: 800px;
+	font-size: 14px;
+	color: white;
+	width: 500px;
 	padding-left: 10px;
 	padding-top: 5px;
 	float: left;
 	margin-right: 2px;
+	border-radius: 10px;
 }
 #homework2 {
 	font-size: 12px;
@@ -19,14 +19,16 @@ body{
 	background-color: #E0E0E0;
 	border: 3px solid #33FF99;
     width: 500px;
-	height: 500px;
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-right: 10px;
+	padding-bottom: 5px;
 	float: left;	
+	border-radius: 10px;
 }
 p{
-	font-size: 10px;
+	font-size: 12px;
+	color: white;
 }
 
 table{
@@ -49,4 +51,25 @@ td{
 	font-family: cursive;
 	color: #787878;
 	font-size: 9px;
+}
+.fb{
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+	clear: both;
+}
+.fbtext
+{
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+.fb_span{
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
 }
